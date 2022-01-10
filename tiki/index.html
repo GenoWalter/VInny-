@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinny-Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="app">   
+        <div class="header">
+            <div class="grid wide">
+                   
+                <!-- Header with search -->
+                <div class="header-with-search">
+                    <label for="mobile-search-checkbox" class="header__mobile-search">
+                        <i class="header__mobile-search-icon fas fa-search"></i>
+                    </label>
+<!-- 
+                    <div class="header__logo hide-on-tablet">
+                        <img src="./assets/img/tiki.png" alt="">
+                    </div> -->
+
+                    <input type="checkbox" hidden id="mobile-search-checkbox" class="header__search-checkbox">
+
+                    <div class="header__search ">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm sản phẩm">
+                           
+                            <!-- Search history -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">akko world tour tokyo keyboard</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">keychron k3</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">g304</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                            Tìm kiếm
+                        </button>
+
+                    </div>
+                    <li class="header__navbar-item header__navbar-user">
+                        <img src="./assets/img/1094164.png" alt="" class="header__navbar-user-img">
+                        <span class="header__navbar-user-name">Tài khoản</span>
+                        <span class="header__navbar-account-name">
+                            <span>Vinny</span>
+                        </span>
+                        <ul class="header__navbar-user-menu">
+                            <li class="header__navbar-user-item">
+                                <a href="">Tài khoản của tôi</a>
+                            </li>
+                            <li class="header__navbar-user-item">
+                                <a href="">Địa chỉ của tôi</a>
+                            </li>
+                            <li class="header__navbar-user-item">
+                                <a href="">Đơn mua</a>
+                            </li>
+                            <li class="header__navbar-user-item">
+                                <a href="">Đăng xuất</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Cart layout -->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">        
+                            <i class="header__cart-icon fas fa-cart-plus"></i>
+                            <span class="header__cart-notice">4</span>
+                            <div class="header__cart-list">
+                                <img src="https://bizweb.dktcdn.net/100/416/931/themes/806831/assets/empty-cart.png?1616484068897" alt="" class="header__cart-no-cart-img">
+                                <span class="header__cart-list-no-cart-mgs">
+                                    Chưa có sẳn phẩm
+                                </span>      
+                                
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="header__cart-list-item">
+                                    <!-- Cart item -->
+                                    <li class="header__cart-item">
+                                        <img src="https://ndc-group.xyz/products/images/2460/c37y5hSq4Z.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Akko World Tour Tokyo</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">1,290,000₫</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-descỉption">
+                                                    Switch: Akko Switch Blue/ Orange/ Pink
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="https://ndc-group.xyz/products/images/2460/c37y5hSq4Z.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Akko World Tour Tokyo</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">1,290,000₫</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-descỉption">
+                                                    Switch: Akko Switch Blue/ Orange/ Pink
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="https://ndc-group.xyz/products/images/2460/c37y5hSq4Z.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Akko World Tour Tokyo</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">1,290,000₫</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-descỉption">
+                                                    Switch: Akko Switch Blue/ Orange/ Pink
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <button class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

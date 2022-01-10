@@ -1,0 +1,38 @@
+        <div class="toast toast--info">
+            <div class="toast__icon">
+                <i class="fas fa-check"></i>
+            </div>
+            <div class="toast__body">
+                <h3 class="toast__title">Info</h3>
+                <p class="toast__msg"></p>
+            </div>
+            <div class="toast__close">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+    
+        <div class="toast toast--warning">
+            <div class="toast__icon">
+                <i class="fas fa-check"></i>
+            </div>
+            <div class="toast__body">
+                <h3 class="toast__title">Warning</h3>
+                <p class="toast__msg"></p>
+            </div>
+            <div class="toast__close">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+    
+        <div class="toast toast--error">
+            <div class="toast__icon">
+                <i class="fas fa-check"></i>
+            </div>
+            <div class="toast__body">
+                <h3 class="toast__title">Erro</h3>
+                <p class="toast__msg"></p>
+            </div>
+            <div class="toast__close">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
