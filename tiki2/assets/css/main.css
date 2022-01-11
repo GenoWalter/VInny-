@@ -580,7 +580,7 @@
     font-size: 1.4rem;
     line-height: 1.4rem;
     border-radius: 10px;
-    border: 2px solid #EE4D2D;
+    border: 2px solid yellow;
 }
 
 .header__cart-notice-name {
@@ -638,10 +638,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.header__search-btn:hover {
-    background-color: #fb6445;
 }
 
 .header__search-btn-icon {
