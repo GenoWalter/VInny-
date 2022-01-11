@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinny-Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="app">   
+        <header class="header">
+            <div class="grid wide">
+                   
+                <!-- Header with search -->
+                <div class="header-with-search">
+                    <label for="mobile-search-checkbox" class="header__mobile-search">
+                        <i class="header__mobile-search-icon fas fa-search"></i>
+                    </label>
+
+                    <div class="header__logo  hide-on-tablet">
+                        <img class="header__logo-img" src="https://salt.tikicdn.com/ts/upload/ae/f5/15/2228f38cf84d1b8451bb49e2c4537081.png" alt="tiki-logo">
+                    </div>
+
+                    <input type="checkbox" hidden id="mobile-search-checkbox" class="header__search-checkbox">
+
+                    <div class="header__search ">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Tìm sản phẩm, danh mục hay thương hiệu mong muốn...">
+                           
+                            <!-- Search history -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">akko world tour tokyo keyboard</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">keychron k3</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">g304</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                            Tìm kiếm
+                        </button>
+                    </div>
+                    <li class="header__navbar-item header__navbar-user">
+                        <img src="./assets/img/1094164.png" alt="" class="header__navbar-user-img">
+                        <span class="header__navbar-user-name">Vinny</span>
+                        <ul class="header__navbar-user-menu">
+                            <li class="header__navbar-user-item">
+                                <a href="">Đơn hàng của tôi</a>
+                            </li>
+                            <li class="header__navbar-user-item">
+                                <a href="">Thông báo của tôi</a>
+                            </li>
+                            <li class="header__navbar-user-item">
+                                <a href="">Tài khoản của tôi</a>
+                            </li>
+                            <li class="header__navbar-user-item">
+                                <a href="">Nhận xét sản phẩm đã mua</a>
+                            </li>
+                            <li class="header__navbar-user-item">
+                                <a href="">Đổi trả hàng dễ dàng</a>
+                            </li>
+                            <li class="header__navbar-user-item">
+                                <a href="">Thoát tài khoản</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Cart layout -->
+                    <div class="header__cart">
+                        <a class="header__cart-wrap">        
+                            <i class="header__cart-icon fas fa-cart-plus"></i>
+                            <span class="header__cart-notice">3</span>
+                            <span class="header__cart-notice-name">Giỏ hàng</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </header>
+
+        <div class="app__container">
+           
+        </div>
+
+        <footer class="footer">
+        </footer>
+    </div>
+    
+</body>
+</html>
