@@ -861,3 +861,83 @@
     background-color: #F05D41;
 }
 
+.header-bottom {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo-freeship {
+    height: 16px;
+    width: 83px;
+}
+
+.header__logo-free {   
+    position: absolute;
+    top: 2.5px;
+    margin-left: 20px;
+}
+
+.header__cart-bottom {
+    margin-left: 206px;
+    height: 32px;
+}
+
+.header__cart-bottom-link {
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    color: white;
+    margin-right: 12px;
+    text-decoration: none;
+}
+
+.header__cart-seller {  
+    color: white;
+    font-size: 12px;
+    margin-bottom: 12px;
+    height: 22px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 0px 8px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+/*  top-category */
+
+.top-category {  
+    background-color: rgb(255, 255, 255);
+    height: 44px;
+}
+
+.app__container {
+    width: 1240px;
+    padding: 15px 0px;
+    margin: 0px auto;
+    position: relative;
+    height: 44px;
+}
+
+.content {
+
+}
+
+.slider {   
+    display: flex;
+    align-items: center;
+}
+
+.content .slider a {
+    padding: 0px 14px;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(56, 56, 61);
+    display: inline-block;
+}
